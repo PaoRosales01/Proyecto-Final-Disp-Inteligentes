@@ -1,0 +1,62 @@
+/*LOGIN*/
+.toolbar{
+ font-family: 'Poppins', sans-serif;
+ --background: #90E0EF;
+ color:black;
+ text-align: center;
+}
+
+.card-container{
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4rem;
+    border-radius: 15px;
+}
+
+.card-container__title{
+    font-family:'Roboto Flex', sans-serif;
+    color: #676565;
+    text-align: center;
+}
+
+.card-content__label{
+    color:#A09B9B;
+    font-family:'Roboto Flex', sans-serif;
+}
+
+.button-container{
+text-align: center;    
+}
+
+.button-container__style{
+    --background: #0077B6;
+    font-family:'Roboto Flex', sans-serif;
+    margin-top: 1rem;
+}
+
+.help-container{
+    text-align: center;
+    color: #676565;
+    font-family:'Roboto Flex', sans-serif;
+    text-decoration: underline;
+    margin-top: 1.6rem;
+}
+
+.help-container__pass, .help-container__login{
+    padding-bottom: 1.2rem;
+}
+
+.help-container__signup{
+    padding-bottom: 1.2rem;
+}
+
+.router{
+    text-decoration: none; 
+    color: inherit;
+}
+
+.router:hover{
+    color: #3e3c3c;
+   font-weight:bolder;
+}
