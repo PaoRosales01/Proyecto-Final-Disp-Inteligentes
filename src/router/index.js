@@ -3,6 +3,7 @@ import HomePage from '../views/HomePage.vue'
 import LoginPage from '../views/LoginPage.vue'
 import SignupPage from '../views/SignupPage.vue'
 import CarritoPage from '../views/CarritoPage.vue'
+import InicioClientePage from '../views/InicioClientePage.vue'
 
 const routes = [
   {
@@ -28,6 +29,11 @@ const routes = [
     path: '/carrito',
     name: 'Carrito',
     component: CarritoPage
+  },
+  {
+    path: '/inicio_cliente',
+    name: 'InicioCliente',
+    component: InicioClientePage
   }
 ]
 
