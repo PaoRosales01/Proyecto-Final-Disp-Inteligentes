@@ -4,6 +4,7 @@ import LoginPage from '../views/LoginPage.vue'
 import SignupPage from '../views/SignupPage.vue'
 import CarritoPage from '../views/CarritoPage.vue'
 import InicioClientePage from '../views/InicioClientePage.vue'
+import ContinuarCompraPage from '../views/ContinuarCompraPage.vue'
 
 const routes = [
   {
@@ -34,6 +35,11 @@ const routes = [
     path: '/inicio_cliente',
     name: 'InicioCliente',
     component: InicioClientePage
+  },
+  {
+    path: '/continuar_compra',
+    name: 'ContinuarCompra',
+    component: ContinuarCompraPage
   }
 ]
 

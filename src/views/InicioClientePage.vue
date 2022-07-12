@@ -134,28 +134,6 @@ export default defineComponent({
     IonCardContent,
     IonIcon,
     IonImg
-  },
-  data() {
-    return {
-      carrito: [
-        {
-            id: 1,
-            nombre: 'Cerradura inteligente',
-            descripcion: 'WiFi con huella digital, gama Premium (Mortise)',
-            cantidad: 1,
-            precio: 2500.00,
-            imagen: '/assets/img/productos/cerradura.jpeg'
-        },
-        {
-            id: 2,
-            nombre: 'Foco inteligente',
-            descripcion: 'Smart Light con 16 millones de colores',
-            cantidad: 1,
-            precio: 130.00,
-            imagen: '/assets/img/productos/foco.avif'
-        },
-      ]
-    }
   }
 });
 </script>
