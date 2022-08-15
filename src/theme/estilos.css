@@ -1,12 +1,12 @@
 /*LOGIN*/
-.toolbar{
- font-family: 'Poppins', sans-serif;
- --background: #90E0EF;
- color:black;
- text-align: center;
+.toolbar {
+    font-family: "Poppins", sans-serif;
+    --background: #90e0ef;
+    color: black;
+    text-align: center;
 }
 
-.card-container{
+.card-container {
     max-width: 50%;
     margin-left: auto;
     margin-right: auto;
@@ -14,51 +14,52 @@
     border-radius: 15px;
 }
 
-.card-container__title{
-    font-family:'Roboto Flex', sans-serif;
+.card-container__title {
+    font-family: "Roboto Flex", sans-serif;
     color: #676565;
     text-align: center;
 }
 
-.card-content__label{
-    color:#A09B9B;
-    font-family:'Roboto Flex', sans-serif;
+.card-content__label {
+    color: #a09b9b;
+    font-family: "Roboto Flex", sans-serif;
 }
 
-.button-container{
-text-align: center;    
+.button-container {
+    text-align: center;
 }
 
-.button-container__style{
-    --background: #0077B6;
-    font-family:'Roboto Flex', sans-serif;
+.button-container__style {
+    --background: #0077b6;
+    font-family: "Roboto Flex", sans-serif;
     margin-top: 1rem;
 }
 
-.help-container{
+.help-container {
     text-align: center;
     color: #676565;
-    font-family:'Roboto Flex', sans-serif;
+    font-family: "Roboto Flex", sans-serif;
     text-decoration: underline;
     margin-top: 1.6rem;
 }
 
-.help-container__pass, .help-container__login{
+.help-container__pass,
+.help-container__login {
     padding-bottom: 1.2rem;
 }
 
-.help-container__signup{
+.help-container__signup {
     padding-bottom: 1.2rem;
 }
 
-.router{
-    text-decoration: none; 
+.router {
+    text-decoration: none;
     color: inherit;
 }
 
-.router:hover{
+.router:hover {
     color: #3e3c3c;
-   font-weight:bolder;
+    font-weight: bolder;
 }
 
 /* CARRITO */
@@ -153,7 +154,7 @@ text-align: center;
 .mis-dispositivos__icon {
     margin: 0 4vmin 0 4vmin;
     padding: 4vmin;
-    background: #0077B6;
+    background: #0077b6;
     color: #e9edee;
     border-radius: 3vmin;
 }
@@ -205,4 +206,207 @@ text-align: center;
     display: flex;
     flex-direction: column;
     border-radius: 20px;
+}
+
+/* ADMINISTRAR PRODUCTOS */
+.img-foco-container {
+    display: contents;
+    justify-content: center;
+    width: 50%;
+    margin-left: auto;
+}
+
+.img-foco {
+    width: 28%;
+    padding-top: 2vmin;
+    justify-content: center;
+}
+
+.card-inicio-usuario {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+/* NOSOTROS */
+.descripcion {
+    font-size: 2.5vmin;
+    padding-bottom: 4vmin;
+    text-align: justify;
+    margin: 25px;
+    color: #49454f;
+}
+
+.img-nosotros {
+    display: flex;
+    justify-content: center;
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+}
+
+.container-nos {
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    border-radius: 15px;
+}
+
+.container-nos_title {
+    color: #1c1b1f;
+    font-family: "Roboto Flex", sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* INICIO */
+.titulo {
+    font-family: "Poppins", sans-serif;
+    color: black;
+    text-align: center;
+    font-size: 7vmin;
+    text-shadow: gray 0em 0em 0.1em;
+    display: flex;
+}
+
+.desc {
+    font-size: 3.5vmin;
+    text-align: center;
+    margin: 25px;
+    color: #49454f;
+    font-weight: lighter;
+}
+
+.container-ini {
+    max-width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4em;
+}
+
+/* MENU */
+.fondo-menu {
+    background: #f9f9f9;
+}
+
+.opciones-menu {
+    font-family: "Roboto Flex", sans-serif;
+    color: #000;
+}
+
+.opciones-admin {
+    background: #e2faff !important;
+}
+
+.icono-menu {
+    color: #000;
+    padding-right: 0.7rem;
+}
+
+/* PRODUCTOS*/
+
+.div-info-producto{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.img-container {
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.img-container__blur {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+    height: 22vh;
+}
+
+.img-container__front {
+    max-width: 350px;
+    margin: 0px auto;
+    position: absolute;
+    height: 22vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.nombre-producto,
+.precio-producto,
+.descripcion-producto,
+.boton-producto {
+    font-family: "Roboto Flex", sans-serif;
+    color: #000;
+}
+
+.nombre-producto {
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.descripcion-producto{
+    text-align: justify;
+    font-size: 1rem;
+    
+}
+
+.precio-producto {
+    font-size: 1.1rem;
+    text-align: center;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+}
+
+.boton-producto{
+    align-self: center;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+/* CONTACTO */
+.div-info-contacto{
+    background-color: #03045E;
+    color: #fff !important;
+    border-radius: 2rem !important;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: "Roboto Flex", sans-serif;
+}
+
+.titulo-info-contacto, .titulo-form-contacto{
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.descripcion-info-contacto{
+    font-size: 0.8rem !important;
+}
+
+.informacion-contacto{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 1rem !important;
+}
+
+.div-form-contacto{
+    border-radius: 2rem !important;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: "Roboto Flex", sans-serif;
+}
+
+.boton-enviar-comentario{
+    margin-top: 1rem !important;
 }

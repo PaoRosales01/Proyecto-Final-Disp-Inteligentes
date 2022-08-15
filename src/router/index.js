@@ -8,6 +8,9 @@ import ContinuarCompraPage from '../views/ContinuarCompraPage.vue'
 import CuentaClientePage from '../views/CuentaClientePage.vue'
 import MenuPage from '../views/MenuPage.vue'
 import AdministrarProductoPage from '../views/AdministrarProductoPage.vue'
+import ProductosPage from '../views/ProductosPage.vue'
+import ContactoPage from '../views/ContactoPage.vue'
+import NosotrosPage from '../views/NosotrosPage.vue'
 
 const routes = [
   {
@@ -35,32 +38,44 @@ const routes = [
     component: CarritoPage
   },
   {
-    path: '/inicio_cliente',
+    path: '/inicioCliente',
     name: 'InicioCliente',
     component: InicioClientePage
   },
   {
-    path: '/continuar_compra',
+    path: '/continuarCompra',
     name: 'ContinuarCompra',
     component: ContinuarCompraPage
   },
-
   {
-    path: '/cuenta_cliente',
+    path: '/cuentaCliente',
     name: 'CuentaCliente',
     component: CuentaClientePage
   },
-
   {
     path: '/menu',
     name: 'Menu',
     component: MenuPage
   },
-
   {
-    path: '/administrar_producto',
+    path: '/administrarProducto',
     name: 'AdministrarProducto',
     component: AdministrarProductoPage
+  },
+  {
+    path: '/productos',
+    name: 'Productos',
+    component: ProductosPage
+  },
+  {
+    path: '/contacto',
+    name: 'Contacto',
+    component: ContactoPage
+  },
+  {
+    path: '/nosotros',
+    name: 'Nosotros',
+    component: NosotrosPage
   }
 ]
 
