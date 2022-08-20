@@ -1,0 +1,443 @@
+/*LOGIN*/
+.toolbar {
+    font-family: "Poppins", sans-serif;
+    --background: #90e0ef;
+    color: black;
+    text-align: center;
+}
+
+.card-container {
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4rem;
+    border-radius: 15px;
+}
+
+.card-container__title {
+    font-family: "Roboto Flex", sans-serif;
+    color: #676565;
+    text-align: center;
+}
+
+.card-content__label {
+    color: #a09b9b;
+    font-family: "Roboto Flex", sans-serif;
+}
+
+.button-container {
+    text-align: center;
+}
+
+.button-container__style {
+    --background: #73d6e8;
+    font-family: "Roboto Flex", sans-serif;
+    margin-top: 1rem;
+}
+
+.help-container {
+    text-align: center;
+    color: #676565;
+    font-family: "Roboto Flex", sans-serif;
+    text-decoration: underline;
+    margin-top: 1.6rem;
+}
+
+.help-container__pass,
+.help-container__login {
+    padding-bottom: 1.2rem;
+}
+
+.help-container__signup {
+    padding-bottom: 1.2rem;
+}
+
+.router {
+    text-decoration: none;
+    color: inherit;
+}
+
+.router:hover {
+    color: #3e3c3c;
+    font-weight: bolder;
+}
+
+/* CARRITO */
+.producto-carrito-container {
+    display: block;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 60%;
+}
+
+.producto-carrito {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: space-between;
+}
+
+.producto-carrito__btn-eliminar {
+   
+    color: #b93321;
+    font-size: 5vmin;
+    margin-right: -6px;
+}
+
+.producto-carrito__nombre {
+    font-weight: bold;
+    font-size: large;
+}
+
+.producto-carrito__img {
+    max-width: 20%;
+    display: block;
+    margin: 0 auto;
+    height: 20vh;
+}
+
+#producto-carrito__descripcion {
+    font-size: 2.5vmin;
+    padding-bottom: 4vmin;
+}
+
+.producto-carrito__precio-cantidad {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-compra{
+    display: block;
+    margin: 0 auto;
+    max-width: 50%;
+}
+
+.total-pagar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 5vmin;
+    font-size: large;
+    font-weight: bold;
+}
+
+.total-pagar p {
+    padding: 0;
+    margin: 4px;
+}
+
+.btn-continuar {
+    padding-top: 5vmin;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+/* INICIO USUARIO */
+
+.img-inicio{
+    display: block;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.img-user {
+ display: block;
+ margin: 0 auto !important;
+ max-width: 150px;
+}
+
+.card-inicio-usuario {
+    display: block;
+    margin-bottom: 3rem;
+    border-radius: 20px; 
+}
+
+.card-inicio-usuario__titulo {
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+}
+
+.mis-dispositivos__icons {
+    display: flex;
+    justify-content: center;
+}
+
+.mis-dispositivos__icon {
+    margin: 0 3vmin 0 3vmin;
+    padding: 1vmin 2vmin;
+    background: #73d6e8;
+    color: #ffffff;
+    border-radius: 2vmin;
+    width: 20px;
+}
+
+.card-administra-content {
+    display: flex;
+}
+
+.card-administra-content p {
+    width: 80%;
+    text-align: justify;
+}
+
+.card-administra-content div {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-administra-content div p {
+    text-align: center;
+}
+
+.dispositivo-porciones {
+    display: flex;
+    align-items: center;
+}
+
+.dispositivo-porciones p {
+    font-size: large;
+}
+
+/* CUENTA CLIENTE */
+.img-user1-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.img-user-container{
+    display: block;
+    margin: 0 auto;
+    max-width: 15%;
+}
+
+.img-user1 {
+    width: 100%;
+    padding-top: 3vmin;
+    justify-content: center;
+}
+
+.card-inicio-usuario {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+/* ADMINISTRAR PRODUCTOS */
+
+.card-container__admin{
+    display: block;
+    margin: 0 auto;
+    max-width: 80%;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.img-foco-container, .img-foco{
+    max-width: 25%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 12px;
+}
+
+
+.card-inicio-usuario {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+/* NOSOTROS */
+.descripcion {
+    font-size: 2.5vmin;
+    padding-bottom: 4vmin;
+    text-align: justify;
+    margin: 25px;
+    color: #49454f;
+}
+
+.img-nosotros {
+    display: flex;
+    justify-content: center;
+    width: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+}
+
+.container-nos {
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    border-radius: 15px;
+}
+
+.container-nos_title {
+    color: #1c1b1f;
+    font-family: "Roboto Flex", sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* INICIO */
+.titulo {
+    font-family: "Poppins", sans-serif;
+    color: black;
+    text-align: center;
+    font-size: 7vmin;
+    text-shadow: gray 0em 0em 0.1em;
+    display: flex;
+}
+
+.desc {
+    font-size: 3.5vmin;
+    text-align: center;
+    margin: 25px;
+    color: #49454f;
+    font-weight: lighter;
+}
+
+.container-ini {
+    max-width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4em;
+}
+
+/* MENU */
+.fondo-menu {
+    background: #f9f9f9;
+}
+
+.opciones-menu {
+    font-family: "Roboto Flex", sans-serif;
+    color: #000;
+}
+
+.opciones-admin {
+    background: #e2faff !important;
+}
+
+.icono-menu {
+    color: #000;
+    padding-right: 0.7rem;
+}
+
+/* PRODUCTOS*/
+
+.div-info-producto{
+    display: block;
+    flex-direction: column;
+    width: 70vh;
+    max-width: 80% ;
+    margin: 0 auto;
+    text-align: center;
+    height: 70vh;
+    
+}
+
+.img-container {
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.img-container__blur {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(15px);
+    height: 22vh;
+}
+
+.img-container__front {
+    max-width: 350px;
+    margin: 0px auto;
+    position: absolute;
+    height: 22vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.nombre-producto,
+.precio-producto,
+.descripcion-producto,
+.boton-producto {
+    font-family: "Roboto Flex", sans-serif;
+    color: #000;
+}
+
+.nombre-producto {
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.descripcion-producto{
+    text-align: justify;
+    font-size: 1rem;
+    
+}
+
+.precio-producto {
+    font-size: 1.1rem;
+    text-align: center;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+}
+
+.boton-producto{
+    align-self: center;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+/* CONTACTO */
+.div-info-contacto{
+    background-color: #51d6ed;
+    color: #fff !important;
+    border-radius: 2rem !important;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: "Roboto Flex", sans-serif;
+}
+
+.titulo-info-contacto, .titulo-form-contacto{
+    font-weight: bold;
+    font-size: 1.3rem;
+
+}
+
+.descripcion-info-contacto{
+    font-size: 0.8rem !important;
+}
+
+.informacion-contacto{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 1rem !important;
+}
+
+.div-form-contacto{
+    border-radius: 2rem !important;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: "Roboto Flex", sans-serif;
+}
+
+.boton-enviar-comentario{
+    margin-top: 1rem !important;
+}
