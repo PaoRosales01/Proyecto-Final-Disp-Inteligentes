@@ -16,7 +16,7 @@
             </ion-list>
         </ion-content>
     </ion-menu>
-    <ion-router-outlet id="principal" />
+    <ion-router-outlet id="principal"/>
 </template>
 
 <script>
@@ -59,6 +59,7 @@ export default defineComponent({
                 { titulo: 'Productos', icono: '/assets/icons/admin-produc.svg', redirectTo: '/productos' },
                 { titulo: 'Contacto', icono: '/assets/icons/contacto.svg', redirectTo: '/contacto' },
                 { titulo: 'Iniciar Sesión', icono: '/assets/icons/login.svg', redirectTo: '/login' },
+                { titulo: 'Registrarse', icono: '/assets/icons/person-add.svg', redirectTo: '/signup' },
                 { titulo: 'Inicio (Administrador)', icono: '/assets/icons/inicio.svg', redirectTo: '/inicioCliente' },
                 { titulo: 'Carrito de Compras', icono: '/assets/icons/carrito.svg', redirectTo: '/carrito' },
                 { titulo: 'Administrar Producto', icono: '/assets/icons/admin-produc.svg', redirectTo: '/administrarProducto' },

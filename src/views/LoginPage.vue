@@ -23,7 +23,7 @@
           </ion-item>
           <ion-item class="card-content__label">
             <ion-label position="floating">Contraseña</ion-label>
-            <ion-input></ion-input>
+            <ion-input type="password"></ion-input>
           </ion-item>
 
           <div class="button-container">

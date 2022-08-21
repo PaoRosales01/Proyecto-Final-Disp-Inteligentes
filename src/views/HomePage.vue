@@ -24,7 +24,7 @@
           <p class="desc">El control de tus productos smart al alcance de tu mano.</p>
           <p class="desc">Innovación, cálidad y compromiso.</p>
         </ion-text>
-        <ion-img src="/assets/img/logic (1).jpeg" class="img-user-container"></ion-img>
+        <ion-img src="/assets/img/logic (1).jpeg" class="img-inicio"></ion-img>
       </ion-card>
     </ion-content>
   </ion-page>

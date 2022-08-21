@@ -1,7 +1,11 @@
 <template>
   <ion-page>
+    <menu-principal></menu-principal>
     <ion-header :translucent="true">
       <ion-toolbar class="toolbar">
+        <ion-buttons slot="start">
+          <ion-menu-button @click="openMenu"></ion-menu-button>
+        </ion-buttons>
         <ion-title>Registrarse</ion-title>
       </ion-toolbar>
     </ion-header>
@@ -23,11 +27,11 @@
           </ion-item>
           <ion-item class="card-content__label">
             <ion-label position="floating">Contraseña</ion-label>
-            <ion-input></ion-input>
+            <ion-input type="password"></ion-input>
           </ion-item>
           <ion-item class="card-content__label">
             <ion-label position="floating">Confirmar contraseña</ion-label>
-            <ion-input></ion-input>
+            <ion-input type="password"></ion-input>
           </ion-item>
 
           <div class="button-container">
@@ -58,6 +62,9 @@ import {
   IonToolbar,
 } from "@ionic/vue";
 import { defineComponent } from "vue";
+import MenuPrincipal from './MenuPage.vue'
+
+
 
 export default defineComponent({
   name: "HomePage",
@@ -67,6 +74,7 @@ export default defineComponent({
     IonPage,
     IonTitle,
     IonToolbar,
+    MenuPrincipal
   },
 });
 </script>

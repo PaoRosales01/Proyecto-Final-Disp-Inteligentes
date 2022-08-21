@@ -7,7 +7,7 @@
 }
 
 .card-container {
-    max-width: 50%;
+    max-width: 60%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 4rem;
@@ -30,7 +30,7 @@
 }
 
 .button-container__style {
-    --background: #0077b6;
+    --background: #73d6e8;
     font-family: "Roboto Flex", sans-serif;
     margin-top: 1rem;
 }
@@ -64,9 +64,11 @@
 
 /* CARRITO */
 .producto-carrito-container {
-    display: flex;
+    display: block;
+    margin: 0 auto;
     align-items: center;
     justify-content: space-around;
+    max-width: 60%;
 }
 
 .producto-carrito {
@@ -76,9 +78,10 @@
 }
 
 .producto-carrito__btn-eliminar {
-    padding-left: 3vmin;
+   
     color: #b93321;
-    font-size: 8vmin;
+    font-size: 5vmin;
+    margin-right: -6px;
 }
 
 .producto-carrito__nombre {
@@ -87,7 +90,10 @@
 }
 
 .producto-carrito__img {
-    max-width: 30%;
+    max-width: 20%;
+    display: block;
+    margin: 0 auto;
+    height: 20vh;
 }
 
 #producto-carrito__descripcion {
@@ -98,6 +104,12 @@
 .producto-carrito__precio-cantidad {
     display: flex;
     justify-content: space-between;
+}
+
+.container-compra{
+    display: block;
+    margin: 0 auto;
+    max-width: 50%;
 }
 
 .total-pagar {
@@ -123,21 +135,23 @@
 }
 
 /* INICIO USUARIO */
-.img-user-container {
-    display: flex;
-    justify-content: center;
-    width: 100%;
+
+.img-inicio{
+    display: block;
+    margin: 0 auto;
+    max-width: 600px;
 }
 
 .img-user {
-    width: 30%;
-    padding-top: 3vmin;
+ display: block;
+ margin: 0 auto !important;
+ max-width: 150px;
 }
 
 .card-inicio-usuario {
-    display: flex;
-    flex-direction: column;
-    border-radius: 20px;
+    display: block;
+    margin-bottom: 3rem;
+    border-radius: 20px; 
 }
 
 .card-inicio-usuario__titulo {
@@ -152,11 +166,12 @@
 }
 
 .mis-dispositivos__icon {
-    margin: 0 4vmin 0 4vmin;
-    padding: 4vmin;
-    background: #0077b6;
-    color: #e9edee;
-    border-radius: 3vmin;
+    margin: 0 3vmin 0 3vmin;
+    padding: 1vmin 2vmin;
+    background: #73d6e8;
+    color: #ffffff;
+    border-radius: 2vmin;
+    width: 20px;
 }
 
 .card-administra-content {
@@ -196,6 +211,12 @@
     width: 100%;
 }
 
+.img-user-container{
+    display: block;
+    margin: 0 auto;
+    max-width: 15%;
+}
+
 .img-user1 {
     width: 100%;
     padding-top: 3vmin;
@@ -209,18 +230,22 @@
 }
 
 /* ADMINISTRAR PRODUCTOS */
-.img-foco-container {
-    display: contents;
-    justify-content: center;
-    width: 50%;
-    margin-left: auto;
+
+.card-container__admin{
+    display: block;
+    margin: 0 auto;
+    max-width: 80%;
+    margin-top: 12px;
+    margin-bottom: 12px;
 }
 
-.img-foco {
-    width: 28%;
-    padding-top: 2vmin;
-    justify-content: center;
+.img-foco-container, .img-foco{
+    max-width: 25%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 12px;
 }
+
 
 .card-inicio-usuario {
     display: flex;
@@ -240,7 +265,7 @@
 .img-nosotros {
     display: flex;
     justify-content: center;
-    width: 35%;
+    width: 60px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 1rem;
@@ -308,9 +333,14 @@
 /* PRODUCTOS*/
 
 .div-info-producto{
-    display: flex;
+    display: block;
     flex-direction: column;
+    width: 70vh;
+    max-width: 80% ;
+    margin: 0 auto;
     text-align: center;
+    height: 70vh;
+    
 }
 
 .img-container {
@@ -322,7 +352,7 @@
 
 .img-container__blur {
     background: rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(15px);
     height: 22vh;
 }
 
@@ -371,7 +401,7 @@
 
 /* CONTACTO */
 .div-info-contacto{
-    background-color: #03045E;
+    background-color: #51d6ed;
     color: #fff !important;
     border-radius: 2rem !important;
     padding: 1rem;

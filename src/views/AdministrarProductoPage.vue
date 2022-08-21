@@ -11,11 +11,11 @@
     </ion-header>
 
     <ion-content :fullscreen="true">
-      <ion-card class="card-container">
+      <ion-card class="card-container__admin">
         <ion-grid>
           <ion-row>
-            <ion-col size="12" size-lg="2" size-md="4" size-sm="10" class="img-foco-container">
-              <ion-img src="/assets/img/foco.png" class="img-foco"></ion-img>
+            <ion-col class="img-foco-container">
+              <ion-img src="/assets/img/foco.png"></ion-img>
             </ion-col>
           </ion-row>
         </ion-grid>
@@ -32,7 +32,7 @@
           </div>
           <div class="help-container">
           </div>
-          <ion-card-title class="card-container__title">Estadisticas De uso</ion-card-title>
+          <ion-card-title class="card-container__title">Estadísticas De uso</ion-card-title>
         </ion-card-content>
         <ion-img src="/assets/img/grafic.png" class="img-foco"></ion-img>
       </ion-card>
