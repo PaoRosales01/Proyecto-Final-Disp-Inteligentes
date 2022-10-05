@@ -2,7 +2,7 @@
   <ion-page>
     <ion-header :translucent="true">
       <ion-toolbar class="toolbar">
-        <ion-title>Inicio</ion-title>
+        <ion-title>INICIO</ion-title>
       </ion-toolbar>
     </ion-header>
 
@@ -10,18 +10,18 @@
       <ion-card class="container-ini">
         <ion-card-header>
             <ion-toolbar class="titulo">
-        <ion-title class="titulo">Tecnología que </ion-title>
+        <ion-title class="titulo">HACEMOS CRECER TU NEGOCIO </ion-title>
         <ion-title class="titulo">resplandece</ion-title>
 
       </ion-toolbar>
         </ion-card-header>
 
         <ion-text>
-          <p class="desc">El control de tus productos smart al alcance de tu mano.</p>
+          <p>El control de tus productos smart al alcance de tu mano.</p>
           <p class="desc">Innovación, cálidad y compromiso.</p>
         </ion-text>
         <ion-img
-          src="/assets/img/logic (1).jpeg" class="img-user-container"
+          src="/assets/img/fotis.png" class="img-user-container"
         ></ion-img>
       </ion-card>
 

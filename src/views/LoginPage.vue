@@ -6,37 +6,37 @@
         <ion-buttons slot="start">
           <ion-menu-button @click="openMenu"></ion-menu-button>
         </ion-buttons>
-        <ion-title>Login</ion-title>
+        <ion-title>LOGIN</ion-title>
       </ion-toolbar>
     </ion-header>
 
     <ion-content :fullscreen="true">
       <ion-card class="card-container">
         <ion-card-header>
-          <ion-card-title class="card-container__title">Inicia sesión para administrar tus productos</ion-card-title>
+          <ion-card-title class="card-container__title">INICIA SESIÓN PARA ADMINISTRAR TU PROCESO</ion-card-title>
         </ion-card-header>
 
         <ion-card-content class="card-content">
           <ion-item class="card-content__label">
-            <ion-label position="floating">Email</ion-label>
+            <ion-label position="floating">EMAIL</ion-label>
             <ion-input></ion-input>
           </ion-item>
           <ion-item class="card-content__label">
-            <ion-label position="floating">Contraseña</ion-label>
+            <ion-label position="floating">CONTRASEÑA</ion-label>
             <ion-input type="password"></ion-input>
           </ion-item>
 
           <div class="button-container">
             <router-link class="router" to='/inicioCliente'>
-              <ion-button class="button-container__style">Iniciar Sesión</ion-button>
+              <ion-button class="button-container__style">INICIAR SESIÓN</ion-button>
             </router-link>
           </div>
 
           <div class="help-container">
-            <p class="help-container__pass">¿Olvidaste tu contraseña?</p>
+            <p class="help-container__pass">¿OLVIDASTE TU CONTRASEÑA?</p>
             <router-link class="router" to="/signup">
               <p class="help-container__signup">
-                ¿No tienes un usuario? Registrate aquí
+                ¿NO TIENES USUARIO? REGISTRATE AQUÍ
               </p>
             </router-link>
           </div>

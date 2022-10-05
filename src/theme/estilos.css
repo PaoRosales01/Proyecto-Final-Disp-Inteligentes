@@ -1,7 +1,7 @@
 /*LOGIN*/
 .toolbar {
-    font-family: "Poppins", sans-serif;
-    --background: #90e0ef;
+    font-family: "Times New Roman", Times, serif;
+    --background: #EAF4F4;
     color: black;
     text-align: center;
 }
@@ -23,6 +23,7 @@
 .card-content__label {
     color: #a09b9b;
     font-family: "Roboto Flex", sans-serif;
+    font-family: cursive;
 }
 
 .button-container {
@@ -30,7 +31,7 @@
 }
 
 .button-container__style {
-    --background: #73d6e8;
+    --background: #6B9080;
     font-family: "Roboto Flex", sans-serif;
     margin-top: 1rem;
 }
@@ -168,7 +169,7 @@
 .mis-dispositivos__icon {
     margin: 0 3vmin 0 3vmin;
     padding: 1vmin 2vmin;
-    background: #73d6e8;
+    background: #000000;
     color: #ffffff;
     border-radius: 2vmin;
     width: 20px;
@@ -401,7 +402,7 @@
 
 /* CONTACTO */
 .div-info-contacto{
-    background-color: #51d6ed;
+    background-color: #EAF4F4;
     color: #fff !important;
     border-radius: 2rem !important;
     padding: 1rem;
