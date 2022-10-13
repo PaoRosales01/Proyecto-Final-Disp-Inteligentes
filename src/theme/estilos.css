@@ -1,8 +1,8 @@
 /*LOGIN*/
 .toolbar {
-    font-family: "Times New Roman", Times, serif;
+    font-family: system-ui;
     --background: #EAF4F4;
-    color: black;
+    color: rgb(126, 123, 123);
     text-align: center;
 }
 
@@ -15,14 +15,14 @@
 }
 
 .card-container__title {
-    font-family: "Roboto Flex", sans-serif;
+    font-family: system-ui;
     color: #676565;
     text-align: center;
 }
 
 .card-content__label {
     color: #a09b9b;
-    font-family: "Roboto Flex", sans-serif;
+    font-family: system-ui;
     font-family: cursive;
 }
 
@@ -32,14 +32,14 @@
 
 .button-container__style {
     --background: #6B9080;
-    font-family: "Roboto Flex", sans-serif;
+    font-family: system-ui;
     margin-top: 1rem;
 }
 
 .help-container {
     text-align: center;
     color: #676565;
-    font-family: "Roboto Flex", sans-serif;
+    font-family: system-ui;
     text-decoration: underline;
     margin-top: 1.6rem;
 }
